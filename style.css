@@ -36,7 +36,7 @@ section:not(:first-child) {
 
 .p-siteTitle__text {
   color: #ffffff;
-  font-family: 'Lobster Two', cursive;
+  font-family: 'Handlee', cursive;
 }
 
 /* global */
@@ -75,7 +75,7 @@ section:not(:first-child) {
 
 .p-titleArea__text {
   color: #ffffff;
-  font-family: 'Lobster Two', cursive;
+  font-family: 'Handlee', cursive;
   text-shadow: 1px 2px 10px #000000; 
   position: absolute;
   top: 50%;
@@ -103,7 +103,7 @@ section:not(:first-child) {
 .p-content__title--text {
   display: inline;
   position: relative;
-  font-family: 'Lobster Two', cursive;
+  font-family: 'Handlee', cursive;
 }
 
 .p-content__title--text::after {
