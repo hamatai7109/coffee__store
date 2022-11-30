@@ -36,7 +36,7 @@ section:not(:first-child) {
 
 .p-siteTitle__text {
   color: #ffffff;
-  font-size: 110px;
+  font-family: 'Lobster Two', cursive;
 }
 
 /* global */
@@ -75,6 +75,7 @@ section:not(:first-child) {
 
 .p-titleArea__text {
   color: #ffffff;
+  font-family: 'Lobster Two', cursive;
   text-shadow: 1px 2px 10px #000000; 
   position: absolute;
   top: 50%;
@@ -102,6 +103,7 @@ section:not(:first-child) {
 .p-content__title--text {
   display: inline;
   position: relative;
+  font-family: 'Lobster Two', cursive;
 }
 
 .p-content__title--text::after {
@@ -303,6 +305,11 @@ section:not(:first-child) {
 }
 
 @media screen and (min-width: 796px) { /* pc用スタイル */
+  /* siteTitle */
+  .p-siteTitle__text {
+    font-size: 160px;
+  }
+
   /* titleArea */
   .p-titleArea {
     background-attachment: fixed;
@@ -385,6 +392,11 @@ section:not(:first-child) {
 }
 
 @media screen and (max-width: 795px) { /* sp用スタイル */
+  /* siteTitle */
+  .p-siteTitle__text {
+    font-size: 80px;
+  }
+
   /* titleArea */
   .p-titleArea {
     background-attachment: scroll;
